@@ -1,0 +1,4 @@
+
+* Implement Searchbar
+* Star doesn't automatically update
+* create separate flow for thank you & email verified

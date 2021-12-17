@@ -1,0 +1,32 @@
+.header-background {
+  background-color: #6b5c8a;
+  height: 9vh;
+  position: sticky;
+  width: 100%;
+  justify-content: right;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.bell-icon {
+  color: white;
+  float: right;
+  padding-right: 3vh;
+}
+
+.profile-icon {
+  color: white;
+  padding-right: 2vw;
+}
+
+.temp-searchbar {
+  background-color: white;
+  float: right;
+  height: 50%;
+  width: 35%;
+  margin-right: 25px;
+  margin-top: 10px;
+  border-radius: 6px;
+  border-width: 1px;
+}

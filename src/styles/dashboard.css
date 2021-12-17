@@ -1,0 +1,101 @@
+.dashboard-container {
+  padding: 20px;
+  height: 91vh;
+  overflow: scroll;
+}
+
+.table-headers {
+  font-size: 1vw;
+  font-weight: 100;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 60% 5% 13% 10% 10%;
+  border-bottom: 0.5px solid lightgrey;
+  padding-bottom: 10px;
+}
+
+#selected{
+  /* grid-template-columns: 60% 5% 13% 10% 10%; */
+  grid-template-columns: 8% 46% 11% 13% 10% 10%
+}
+
+.table-body {
+  /* font-size:18px; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 400;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 60% 5% 13% 10% 10%;
+  border-bottom: 0.5px solid lightgrey;
+  align-items: center;
+}
+
+#table-styling {
+  width: 100%;
+  text-align: left;
+  padding-top: 10px;
+}
+
+.dashboard-email-title {
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.dashboard-email-description {
+  font-size: 1vw;
+  font-weight: 300;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.check-box {
+  float: left;
+  margin-right: 10px;
+  margin-top: 4px;
+}
+
+.title-and-description:after {
+  display: table;
+  clear: both;
+}
+
+.underline {
+  width: 100%;
+  border-width: 1px;
+  color: black;
+}
+
+.dashboard-all-files {
+  font-size: 1.2vw;
+  flex-grow:2;
+}
+
+.dashboard-all-files-row{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    margin-bottom: 1.5vh;
+    padding-right:3.5vw;
+    
+}
+
+.sort-by-text {
+    display:flex;
+    flex-direction: row;
+}
+
+.s-list {
+    background-color: white;
+}
+
+.s-list-item__content:hover {
+    color: #2c6dcd;
+}
+
+.delete-icon {
+  padding-right:3px;
+}
